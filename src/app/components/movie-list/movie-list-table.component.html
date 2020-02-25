@@ -1,0 +1,14 @@
+<table class="table table-bordered table-striped">
+	<thead class="thead-dark">
+		<tr>
+			<th>Movie Title</th>
+			<th>Votes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let tempMovie of movies">
+			<td>{{ tempMovie.title}}</td>
+			<td>{{ tempMovie.votes }}</td>
+		</tr>
+	</tbody>
+</table>
