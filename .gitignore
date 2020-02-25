@@ -16,11 +16,11 @@ speed-measure-plugin*.json
 
 # IDEs and editors
 /.idea
-.project
+# .project AEITI
 .classpath
 .c9/
 *.launch
-.settings/
+# .settings/ AEITI
 *.sublime-workspace
 
 # IDE - VSCode
